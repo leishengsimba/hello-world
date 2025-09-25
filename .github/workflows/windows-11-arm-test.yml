@@ -20,4 +20,4 @@ jobs:
     - name: Test Python
       run: |
         python3 --version
-        python3 -c "import platform; print(platform.architecture())"
+        python3 -c "import platform; print(platform.machine())"
