@@ -21,3 +21,5 @@ jobs:
       run: |
         python3 --version
         python3 -c "import platform; print(platform.machine())"
+        pip3 insatll psycopg2
+        pip3 install pyodbc
